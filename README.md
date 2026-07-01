@@ -40,7 +40,7 @@ This is a client mock-up landing page designed to give Mpoto Yathu Zambia a stro
 [View Live Site](https://mjr5-gif.github.io/Mpoto-Yathu-Zambia/) <!-- add GitHub Pages link here -->
 
 ## Author
-**Michael Jr** — Junior Web Developer, Lusaka Zambia
+**Michael Jr** — Aspiring Software Engineer, Lusaka Zambia
 - GitHub: [github.com/MJr5-gif](https://github.com/MJr5-gif)
 - LinkedIn: [linkedin.com/in/michaeljr](https://www.linkedin.com/in/michael-lungu-a82661364/)
 
