@@ -860,7 +860,7 @@ section:nth-child(8) {
     padding: 12px 0;
   }
  
-  #hero {
+  #home {
     min-height: 80vh;
     padding: 60px 20px;
   }
@@ -904,7 +904,7 @@ section:nth-child(8) {
     margin: 8px 0;
   }
  
-  #hero h2 {
+  #home h2 {
     font-size: 1.8rem;
   }
  
