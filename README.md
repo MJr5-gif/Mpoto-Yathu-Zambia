@@ -37,7 +37,7 @@ This is a client mock-up landing page designed to give Mpoto Yathu Zambia a stro
 10. Footer with social links
 
 ## Live Demo
-[View Live Site](#) <!-- add GitHub Pages link here -->
+[View Live Site](https://mjr5-gif.github.io/Mpoto-Yathu-Zambia/) <!-- add GitHub Pages link here -->
 
 ## Author
 **Michael Jr** — Junior Web Developer, Lusaka Zambia
