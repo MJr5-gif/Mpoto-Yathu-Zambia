@@ -1,203 +1,345 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mpoto Yathu Zambia</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>Mpoto Yathu Zambia</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <h1>Mpoto Yathu Zambia</h1>
+      <button
+        class="hamburger"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="home">
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <h2><i>Authentic Zambian Cuisine, Made with Love</i></h2>
-            <h3><i>Experience the true taste of Zambia's traditional recipes, fresh ingredients and warm hospitality</i></h3>
-            <a href="#menu" class="btn">View Our Menu</a>
-            <a href="https://maps.app.goo.gl/pds2sa3zvxWyMSaL7" target="_blank" rel="noopener noreferrer" class="btn">Get Directions</a>
-        </section>
-        <section id="about-us">
-            <h2>About Us</h2>
-            <p>Traditionally inspired Zambian Matebeto and Grill. Serving a mix of local dishes as well some delicious items of the grill! If you are looking for local in Lusaka — our pot is your spot!</p>
-        </section>
-        <section id="why-choose-us">
-            <h2>Why Choose Us</h2>
-            <div id="cards">
-                <figure>
-                    <h3>Authentic Recipes</h3>
-                    <img src="https://www.svgrepo.com/show/490670/cooking-pot.svg" alt="Authentic Zambian recipes made from scratch">
-                    <figcaption>Traditional Zambian dishes made from scratch</figcaption>
-                </figure>
-                <figure>
-                    <h3>4.6 Star Rated</h3>
-                    <img src="https://www.svgrepo.com/show/533052/star.svg" alt="4.6 star rated restaurant">
-                    <figcaption>Loved by hundreds of satisfied customers</figcaption>
-                </figure>
-                <figure>
-                    <h3>Fresh Ingredients</h3>
-                    <img src="https://www.svgrepo.com/show/499260/leaf.svg" alt="Fresh locally sourced ingredients">
-                    <figcaption>Locally sourced, prepared daily</figcaption>
-                </figure>
-            </div>
-        </section>
-        <section id="menu">
-            <h2>Menu</h2>
-            <div id="popular-dish-cards">
-                <figure>
-                    <figcaption>Oxtail Nshima & 3 Veggies</figcaption>
-                    <p>Slow-cooked oxtail served with nshima and your choice of 3 vegetables.</p>
-                    <data value="320.00" class="product-price">ZMW320.00</data>
-                    <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4tMVPuAktDKP7JNBihPaEyEsPtSHlTQv4waT2isk398ImBtsNg1Q1jc37aIlAgUtyHvBVYQgRzQRPEDUHS9ZDne6lMBOK6wHIEb7Ki3GgSseXv6qJ6fTIFdZuDOVQVOvEVHOg=s1360-w1360-h1020-rw" alt="Oxtail Nshima and 3 Veggies">
-                </figure>
-                <figure>
-                    <figcaption>Buffalo Wings</figcaption>
-                    <p>Deep-fried chicken wings served with mpoto style buffalo sauce.</p>
-                    <data value="160.00" class="product-price">ZMW160.00</data>
-                    <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJpVZPW_ihM1XpKMuu-fCo9f_EYaqQFFByJK5s6AZFWqQat6TnoGVMEoSpg25--8VO4jqMgVO6G37GSjnvkZEXlcW25JpbVye95UDmG-ZX0tMPPzYl8yVMgFuXNvCZGN02oHTp=s1360-w1360-h1020-rw" alt="Buffalo Wings">
-                </figure>
-                <figure>
-                    <figcaption>Strawberry Daiquiri</figcaption>
-                    <p>A refreshing blend of strawberry, lime and cream — the perfect Mpoto treat.</p>
-                    <data value="110.00" class="product-price">ZMW110.00</data>
-                    <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBiBWwy450-tUQVq0oHBj8MTFIJpegjuAiD-Y2fHALhYTJerVcZzUMLLqTgl7R3t7WLsx0mu2BBj-AMZaD1rrDo_sWuoDM-75_2FoDJek0Oy9FveGuHgfa_4Tv9e3-xXNO9iP_=s1360-w1360-h1020-rw" alt="Strawberry Daiquiri Milkshake">
-                </figure>
-                <figure>
-                    <figcaption>Shoka Steak / BBQ Steak</figcaption>
-                    <p>800g of the juiciest chuck in Lusaka.</p>
-                    <data value="450.00" class="product-price">ZMW450.00</data>
-                    <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAG86E42tB4N8gMC33iJj-WsWgydGR9wLR-1XUmO-bfsITUMhAW3vqw7dg8twZ4BcAEh5SFA-jviO8NrYQw26ZrEkrrZArqMyhEYA5bUo9JVj_veQCb8lVZGT4ex8o-Z1mHdB9Cq=s1360-w1360-h1020-rw" alt="Shoka BBQ Steak">
-                </figure>
-            </div>
-        </section>
-        <section id="reviews">
-              <h2>Reviews</h2>
-                <article>
-                <p>"Mpoto Yathu, Lusaka served some of the most amazing food I had in Zambia. Every dish was full of flavor, authentic, and beautifully prepared. The welcoming atmosphere made the experience even more special. This is a meal and a place I will always remember from my time in Zambia. Highly recommended for anyone looking to enjoy delicious local cuisine in Lusaka. Food: 5/5 | Service: 5/5 | Atmosphere: 5/5" — <strong>Sunita Nazareth</strong></p>
-                </article>
-                <article>
-                <p>"Mpoto Yatu does the local Zambian cuisines just the way you love them, without the risk of food poisoning like from a random market. They also serve healthy portions, I have seldom managed to finish my plate. If you have visitors from outside Zambia and you want them to try local food, look no further." — <strong>Gibson Chitunda</strong></p>
-                </article>
-                <article>
-                <p>"One of the best local restaurants I’ve visited in Lusaka! The grill is absolutely amazing — perfectly done and served sizzling hot throughout my lunch. Service was impressively fast (probably the fastest I've ever had), and the waiter was friendly and attentive.
-                    To top it off, there was live music — a guitarist with a beautiful voice, which made the meal even more enjoyable. It happened to be Independence Day, and the atmosphere was simply perfect.
-                    The only downside is that they close quite early (around 3pm), which is a pity for such a great spot. Still, highly recommended for anyone who loves good food, good vibes, and great service!" — <strong>Simo K</strong></p>
-                </article>
-                <p class="star-rating">4.6 ⭐⭐⭐⭐⭐</p>
-        </section>
-        <section id="gallery">
-            <h2>Our Food & Atmosphere</h2>
-            <figure>
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGcWmxdGHF053PyIkQ5YtY0c72cR3NVYNfVf8sY9RbyIeY1pNzgxvztl9LUF-QafkH87RVLvDPnD0gxrLo2ddKAvNi7oMBhv8bdlie_E7wFaen5sl7sXNPnn1n4F50wlN7yWJk3=s1360-w1360-h1020-rw" alt="Chilli Chicken BBQ">
-                <figcaption>Chilli Chicken BBQ</figcaption>
-            </figure>
-            <figure>
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5OCQfFEoCS3G0zaMhgsY8vjotf1a-uGbOf7ASkCcJk310BtqORINLK4KgJal0RIAttxanv1tLsGn8oZcyxH6qwLwJaDaF7Pb7lA81Kcd7YCGUngYYZa5iWwe3DC62P62vBg8_ZQ=s1360-w1360-h1020-rw" alt="Hot Chicken Wings">
-                <figcaption>Hot Chicken Wings</figcaption>
-            </figure>
-            <figure>
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4tMVPuAktDKP7JNBihPaEyEsPtSHlTQv4waT2isk398ImBtsNg1Q1jc37aIlAgUtyHvBVYQgRzQRPEDUHS9ZDne6lMBOK6wHIEb7Ki3GgSseXv6qJ6fTIFdZuDOVQVOvEVHOg=s1360-w1360-h1020-rw" alt="Oxtail Beef">
-                <figcaption>Oxtail Beef</figcaption>
-            </figure>
-            <figure>
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGhm41qIdqQ-stmzd9kpvSTOu_NGwzqA0pmc2A43niS15IaU_A73MParHsWZ7Y9-J3jXEsjAHsUoLYNVIv90PMMiwjpg64GfexgoeQKeMpRnhOfgJuX0Om46cEI7oncRYNjDyY=s1360-w1360-h1020-rw" alt="Honey Cake Slice">
-                <figcaption>Honey Cake Slice</figcaption>
-            </figure>
-            <figure>
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHGtY2O0DuDdOZV2UTSMfrYX4I1h1TVP2lNfPW7Z4YOL7sAhNFgrNok9RF_HDq3C9JZ1YcE4Oyaae5dNCJqVLSDO5ghvxrEoIWI9mmF3kmrFatvIYcgwyo_HAPT6Fe8_eWEag0i=s1360-w1360-h1020-rw" alt="Baby Chicken">
-                <figcaption>Mouth Watering Baby Chicken</figcaption>
-            </figure>
-            <figure>
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAG23LDUh2V9g-o9WaVaScg2JItr6ANgTiT9gIZhwjbs3l-6BNJiXAkAx16DWHr1gCeFeLyPK82GYnfyGumflIlw9d2lGgmIwjNN_lEPLNOlw36nNAZk72fF2z52J62119x0y-yt=s1360-w1360-h1020-rw" alt="Fish and Chips">
-                <figcaption>Fish and Chips Local</figcaption>
-            </figure>
-        </section>
-        <section id="location-hours">
-            <h2>Location & Hours</h2>
-            <address>
-                <p>Mpoto Yathu Zambia</p>
-                <p>21 Omelo Mumba Rd, Lusaka 10101</p>
-                <p>Lusaka, Zambia</p>
-            </address>
-            <table>
-                <caption>Opening Hours</caption>
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Hours</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monday – Friday</td>
-                        <td>12:00 PM – 5:00 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>12:00 PM – 5:00 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>closed</td>
-                    </tr>
-                </tbody>
-            </table>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3846.3906553727893!2d28.2965763!3d-15.4094526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1940f53a292d9195%3A0xf3f21c0cc95d8e32!2sMpoto%20Yathu%20Zambia!5e0!3m2!1sen!2szm!4v1782929886258!5m2!1sen!2szm"
-                width="100%"
-                height="400"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                title="Mpoto Yathu Zambia location on Google Maps">
-            </iframe>
-        </section>
-        <section id="contact">
-            <div id="contact-info">
-                <h2>Contact & Reservation</h2>
-                <form action="" method="POST">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <section id="home">
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <h2><i>Authentic Zambian Cuisine, Made with Love</i></h2>
+        <h3>
+          <i
+            >Experience the true taste of Zambia's traditional recipes, fresh
+            ingredients and warm hospitality</i
+          >
+        </h3>
+        <a href="#menu" class="btn">View Our Menu</a>
+        <a
+          href="https://maps.app.goo.gl/pds2sa3zvxWyMSaL7"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn"
+          >Get Directions</a
+        >
+      </section>
+      <section id="about-us">
+        <h2>About Us</h2>
+        <p>
+          Traditionally inspired Zambian Matebeto and Grill. Serving a mix of
+          local dishes as well some delicious items of the grill! If you are
+          looking for local in Lusaka — our pot is your spot!
+        </p>
+      </section>
+      <section id="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <div id="cards">
+          <figure>
+            <h3>Authentic Recipes</h3>
+            <img
+              src="https://www.svgrepo.com/show/490670/cooking-pot.svg"
+              alt="Authentic Zambian recipes made from scratch"
+            />
+            <figcaption>
+              Traditional Zambian dishes made from scratch
+            </figcaption>
+          </figure>
+          <figure>
+            <h3>4.6 Star Rated</h3>
+            <img
+              src="https://www.svgrepo.com/show/533052/star.svg"
+              alt="4.6 star rated restaurant"
+            />
+            <figcaption>Loved by hundreds of satisfied customers</figcaption>
+          </figure>
+          <figure>
+            <h3>Fresh Ingredients</h3>
+            <img
+              src="https://www.svgrepo.com/show/499260/leaf.svg"
+              alt="Fresh locally sourced ingredients"
+            />
+            <figcaption>Locally sourced, prepared daily</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="menu">
+        <h2>Menu</h2>
+        <div id="popular-dish-cards">
+          <figure>
+            <figcaption>Oxtail Nshima & 3 Veggies</figcaption>
+            <p>
+              Slow-cooked oxtail served with nshima and your choice of 3
+              vegetables.
+            </p>
+            <data value="320.00" class="product-price">ZMW320.00</data>
+            <img
+              src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4tMVPuAktDKP7JNBihPaEyEsPtSHlTQv4waT2isk398ImBtsNg1Q1jc37aIlAgUtyHvBVYQgRzQRPEDUHS9ZDne6lMBOK6wHIEb7Ki3GgSseXv6qJ6fTIFdZuDOVQVOvEVHOg=s1360-w1360-h1020-rw"
+              alt="Oxtail Nshima and 3 Veggies"
+            />
+          </figure>
+          <figure>
+            <figcaption>Buffalo Wings</figcaption>
+            <p>
+              Deep-fried chicken wings served with mpoto style buffalo sauce.
+            </p>
+            <data value="160.00" class="product-price">ZMW160.00</data>
+            <img
+              src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJpVZPW_ihM1XpKMuu-fCo9f_EYaqQFFByJK5s6AZFWqQat6TnoGVMEoSpg25--8VO4jqMgVO6G37GSjnvkZEXlcW25JpbVye95UDmG-ZX0tMPPzYl8yVMgFuXNvCZGN02oHTp=s1360-w1360-h1020-rw"
+              alt="Buffalo Wings"
+            />
+          </figure>
+          <figure>
+            <figcaption>Strawberry Daiquiri</figcaption>
+            <p>
+              A refreshing blend of strawberry, lime and cream — the perfect
+              Mpoto treat.
+            </p>
+            <data value="110.00" class="product-price">ZMW110.00</data>
+            <img
+              src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBiBWwy450-tUQVq0oHBj8MTFIJpegjuAiD-Y2fHALhYTJerVcZzUMLLqTgl7R3t7WLsx0mu2BBj-AMZaD1rrDo_sWuoDM-75_2FoDJek0Oy9FveGuHgfa_4Tv9e3-xXNO9iP_=s1360-w1360-h1020-rw"
+              alt="Strawberry Daiquiri Milkshake"
+            />
+          </figure>
+          <figure>
+            <figcaption>Shoka Steak / BBQ Steak</figcaption>
+            <p>800g of the juiciest chuck in Lusaka.</p>
+            <data value="450.00" class="product-price">ZMW450.00</data>
+            <img
+              src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAG86E42tB4N8gMC33iJj-WsWgydGR9wLR-1XUmO-bfsITUMhAW3vqw7dg8twZ4BcAEh5SFA-jviO8NrYQw26ZrEkrrZArqMyhEYA5bUo9JVj_veQCb8lVZGT4ex8o-Z1mHdB9Cq=s1360-w1360-h1020-rw"
+              alt="Shoka BBQ Steak"
+            />
+          </figure>
+        </div>
+      </section>
+      <section id="reviews">
+        <h2>Reviews</h2>
+        <article>
+          <p>
+            "Mpoto Yathu, Lusaka served some of the most amazing food I had in
+            Zambia. Every dish was full of flavor, authentic, and beautifully
+            prepared. The welcoming atmosphere made the experience even more
+            special. This is a meal and a place I will always remember from my
+            time in Zambia. Highly recommended for anyone looking to enjoy
+            delicious local cuisine in Lusaka. Food: 5/5 | Service: 5/5 |
+            Atmosphere: 5/5" — <strong>Sunita Nazareth</strong>
+          </p>
+        </article>
+        <article>
+          <p>
+            "Mpoto Yatu does the local Zambian cuisines just the way you love
+            them, without the risk of food poisoning like from a random market.
+            They also serve healthy portions, I have seldom managed to finish my
+            plate. If you have visitors from outside Zambia and you want them to
+            try local food, look no further." — <strong>Gibson Chitunda</strong>
+          </p>
+        </article>
+        <article>
+          <p>
+            "One of the best local restaurants I’ve visited in Lusaka! The grill
+            is absolutely amazing — perfectly done and served sizzling hot
+            throughout my lunch. Service was impressively fast (probably the
+            fastest I've ever had), and the waiter was friendly and attentive.
+            To top it off, there was live music — a guitarist with a beautiful
+            voice, which made the meal even more enjoyable. It happened to be
+            Independence Day, and the atmosphere was simply perfect. The only
+            downside is that they close quite early (around 3pm), which is a
+            pity for such a great spot. Still, highly recommended for anyone who
+            loves good food, good vibes, and great service!" —
+            <strong>Simo K</strong>
+          </p>
+        </article>
+        <p class="star-rating">4.6 ⭐⭐⭐⭐⭐</p>
+      </section>
+      <section id="gallery">
+        <h2>Our Food & Atmosphere</h2>
+        <figure>
+          <img
+            src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGcWmxdGHF053PyIkQ5YtY0c72cR3NVYNfVf8sY9RbyIeY1pNzgxvztl9LUF-QafkH87RVLvDPnD0gxrLo2ddKAvNi7oMBhv8bdlie_E7wFaen5sl7sXNPnn1n4F50wlN7yWJk3=s1360-w1360-h1020-rw"
+            alt="Chilli Chicken BBQ"
+          />
+          <figcaption>Chilli Chicken BBQ</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5OCQfFEoCS3G0zaMhgsY8vjotf1a-uGbOf7ASkCcJk310BtqORINLK4KgJal0RIAttxanv1tLsGn8oZcyxH6qwLwJaDaF7Pb7lA81Kcd7YCGUngYYZa5iWwe3DC62P62vBg8_ZQ=s1360-w1360-h1020-rw"
+            alt="Hot Chicken Wings"
+          />
+          <figcaption>Hot Chicken Wings</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4tMVPuAktDKP7JNBihPaEyEsPtSHlTQv4waT2isk398ImBtsNg1Q1jc37aIlAgUtyHvBVYQgRzQRPEDUHS9ZDne6lMBOK6wHIEb7Ki3GgSseXv6qJ6fTIFdZuDOVQVOvEVHOg=s1360-w1360-h1020-rw"
+            alt="Oxtail Beef"
+          />
+          <figcaption>Oxtail Beef</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGhm41qIdqQ-stmzd9kpvSTOu_NGwzqA0pmc2A43niS15IaU_A73MParHsWZ7Y9-J3jXEsjAHsUoLYNVIv90PMMiwjpg64GfexgoeQKeMpRnhOfgJuX0Om46cEI7oncRYNjDyY=s1360-w1360-h1020-rw"
+            alt="Honey Cake Slice"
+          />
+          <figcaption>Honey Cake Slice</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHGtY2O0DuDdOZV2UTSMfrYX4I1h1TVP2lNfPW7Z4YOL7sAhNFgrNok9RF_HDq3C9JZ1YcE4Oyaae5dNCJqVLSDO5ghvxrEoIWI9mmF3kmrFatvIYcgwyo_HAPT6Fe8_eWEag0i=s1360-w1360-h1020-rw"
+            alt="Baby Chicken"
+          />
+          <figcaption>Mouth Watering Baby Chicken</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAG23LDUh2V9g-o9WaVaScg2JItr6ANgTiT9gIZhwjbs3l-6BNJiXAkAx16DWHr1gCeFeLyPK82GYnfyGumflIlw9d2lGgmIwjNN_lEPLNOlw36nNAZk72fF2z52J62119x0y-yt=s1360-w1360-h1020-rw"
+            alt="Fish and Chips"
+          />
+          <figcaption>Fish and Chips Local</figcaption>
+        </figure>
+      </section>
+      <section id="location-hours">
+        <h2>Location & Hours</h2>
+        <address>
+          <p>Mpoto Yathu Zambia</p>
+          <p>21 Omelo Mumba Rd, Lusaka 10101</p>
+          <p>Lusaka, Zambia</p>
+        </address>
+        <table>
+          <caption>
+            Opening Hours
+          </caption>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday – Friday</td>
+              <td>12:00 PM – 5:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>12:00 PM – 5:00 PM</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>closed</td>
+            </tr>
+          </tbody>
+        </table>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3846.3906553727893!2d28.2965763!3d-15.4094526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1940f53a292d9195%3A0xf3f21c0cc95d8e32!2sMpoto%20Yathu%20Zambia!5e0!3m2!1sen!2szm!4v1782929886258!5m2!1sen!2szm"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mpoto Yathu Zambia location on Google Maps"
+        >
+        </iframe>
+      </section>
+      <section id="contact">
+        <div id="contact-info">
+          <h2>Contact & Reservation</h2>
+          <form action="" method="POST">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
 
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" id="phone-number" name="phone-number" placeholder="Your Phone Number" required>
+            <label for="phone-number">Phone Number</label>
+            <input
+              type="tel"
+              id="phone-number"
+              name="phone-number"
+              placeholder="Your Phone Number"
+              required
+            />
 
-                    <label for="date">Date</label>
-                    <input type="date" id="date" name="date" required>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required />
 
-                    <label for="number-of-guests">Number of Guests</label>
-                    <input type="number" id="number-of-guests" name="number-of-guests" placeholder="Number of Guests" required>
+            <label for="number-of-guests">Number of Guests</label>
+            <input
+              type="number"
+              id="number-of-guests"
+              name="number-of-guests"
+              placeholder="Number of Guests"
+              required
+            />
 
-                    <label for="special-requests">Special Requests</label>
-                    <textarea id="special-requests" name="special-requests" placeholder="Any special requests?"></textarea>
+            <label for="special-requests">Special Requests</label>
+            <textarea
+              id="special-requests"
+              name="special-requests"
+              placeholder="Any special requests?"
+            ></textarea>
 
-                    <button type="submit">Reserve My Table</button>
-                </form>
-            </div>
-        </section>
+            <button type="submit">Reserve My Table</button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2026 Mpoto Yathu Zambia</p>
-        <ul>
-            <li><a href="https://www.facebook.com/profile.php?id=100069505242365" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://www.instagram.com/mpotoyathu?igsh=MWxkcG5udW5wODk3cg==" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-            <li><a href="https://wa.me/260979491863" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-            <li><a href="tel:+260979491863">+260 97 9491863</a></li>
-        </ul>
+      <p>&copy; 2026 Mpoto Yathu Zambia</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com/profile.php?id=100069505242365"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/mpotoyathu?igsh=MWxkcG5udW5wODk3cg=="
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://wa.me/260979491863"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp</a
+          >
+        </li>
+        <li><a href="tel:+260979491863">+260 97 9491863</a></li>
+      </ul>
     </footer>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
